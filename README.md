@@ -163,7 +163,7 @@ P.S. 如果电脑没有GPU，也可以直接下载google上面的训练好的模
 
 同样的方法，打开文件全部运行即可查看模型效果
 
-# 进阶（Pi0 & SmolVLA）
+# 进阶(Pi0&SmolVLA)
 
 # 一、基础知识
 
@@ -212,11 +212,11 @@ Pick up the red cup and put it on the plate.
 
 运行 5.language_env.ipynb：
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782111-96.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782111-96.png)
 
 会出现这样的窗口：
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782109-91.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782109-91.png)
 
 操纵机械臂，将红色的杯子抓取并放置到盘子里。
 
@@ -224,9 +224,9 @@ Pick up the red cup and put it on the plate.
 
 同样的，采集的数据会被保存到：lerobot-mujoco-tutorial/demo_data_language文件夹内
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782109-92.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782109-92.png)
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782109-93.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782109-93.png)
 
 一共会采集20组数据，采集结束程序会自动终止
 
@@ -234,7 +234,7 @@ Pick up the red cup and put it on the plate.
 
 点击 6.visualize_data.ipynb，并点击“全部运行”：
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782109-94.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782109-94.png)
 
 # 三、训练数据
 
@@ -246,10 +246,10 @@ python train_model.py --config_path smolvla_omy.yaml
 
 即可开始训练，这个过程可能会持续几个小时
 
-![img](进阶(Pi0 & SmolVLA).assets/1776325782109-95.png)
+![img](进阶(Pi0&SmolVLA).assets/1776325782109-95.png)
 
 # 四、部署模型
 
 打开8.smolvla.ipynb，点击“全部运行”，查看模型训练效果：
 
-![img](进阶(Pi0 & SmolVLA).assets/1780883905508-1.png)
+![img](进阶(Pi0&SmolVLA).assets/1780883905508-1.png)
