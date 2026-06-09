@@ -1,0 +1,27 @@
+dataset:
+  repo_id: omy_pnp_language
+  root: ./demo_data_language
+policy:
+  type : pi0
+  chunk_size: 5
+  n_action_steps: 5
+  
+save_checkpoint: true
+output_dir: ./ckpt/pi0_omy # Save directory
+batch_size: 16
+job_name : pi0_omy
+resume: false 
+seed : 42
+num_workers: 0
+steps: 20_000
+eval_freq: -1 # No evaluation
+log_freq: 10
+save_checkpoint: true
+save_freq: 10_000
+use_policy_training_preset: true
+  
+wandb:
+  enable: false
+  project: pi0_omy
+  entity: <your_wandb_entity>
+  disable_artifact: true

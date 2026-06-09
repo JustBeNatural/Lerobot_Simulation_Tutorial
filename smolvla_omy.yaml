@@ -1,0 +1,28 @@
+dataset:
+  repo_id: demo_data
+  root: ./demo_data
+policy:
+  type : smolvla
+  chunk_size: 5
+  n_action_steps: 5
+  device: cuda
+  
+save_checkpoint: true
+output_dir: ./ckpt/smolvla_omy # Save directory
+batch_size: 16
+job_name : smolvla_omy
+resume: false 
+seed : 42
+num_workers: 0
+steps: 20_000
+eval_freq: -1 # No evaluation
+log_freq: 10
+save_checkpoint: true
+save_freq: 10_000
+use_policy_training_preset: true
+  
+wandb:
+  enable: true
+  project: test
+  entity: m01932566-
+  disable_artifact: true

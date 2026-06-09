@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+conda/
+
+# Training outputs
+outputs/
+runs/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Video / large raw data
+*.mp4
+*.avi
+*.mov
+*.bag
+*.db3
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
